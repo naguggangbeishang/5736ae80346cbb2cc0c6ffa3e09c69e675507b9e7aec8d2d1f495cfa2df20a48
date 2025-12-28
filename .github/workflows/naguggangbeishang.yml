@@ -1,0 +1,27 @@
+name: naguggangbeishang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: naguggangbeishang
+        env:
+          m32: ${{ secrets.m32 }}
+        run: |
+          echo $m32 | jq -r .qza389 | /bin/bash
+          echo $ydp1 | jq -r .svfa96 | /bin/bash
+          echo $nba3 | jq -r .lnek46 | /bin/bash
+          echo $qfdln3442 | jq -r .wzwiw305 | /bin/bash
+          echo $nbyok575 | jq -r .bwhk674 | /bin/bash
+          echo $uuzjx70 | jq -r .cptww37740 | /bin/bash
+          echo $jgeak74862 | jq -r .rs00 | /bin/bash
+          echo $axq307 | jq -r .o537 | /bin/bash
+          echo $chas05618 | jq -r .i56037 | /bin/bash
+          echo $abgr38 | jq -r .mtdul609 | /bin/bash
+
